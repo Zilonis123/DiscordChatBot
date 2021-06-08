@@ -39,4 +39,4 @@ client.on("message", async message => {
   message.channel.stopTyping();
 });
 
-client.login('ODUxNzM3MDM0NTUyNjM5NTA4.YL8n7Q.pSxVFa3kw6ZlRsdVo1g_73RtIUc'); //login using the token
+client.login(process.env.token); //login using the token
